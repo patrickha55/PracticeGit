@@ -1,16 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE delivered-products SYSTEM "C:\Users\diepv\GitFolder\XML\giaohang.dtd">
+<!DOCTYPE delivered-products SYSTEM "giaohang.dtd">
 <delivered-products>
     <delivered-product>
-        <invoice id="1" date="2020" by="&truck;"></invoice>
+        <invoice id="IV123" date="2008/03/11" by="&truck;"></invoice>
         <customer>
-            <name>Phat</name>
-            <address>Ho Chi Minh</address>
+            <name>Tan Phat</name>
+            <address>123 Le Thanh Ton Q1</address>
         </customer>
-        <product id="1">
-            <product-name>ABC</product-name>
+        <product id="P00001">
+            <product-name>TV Sony Wega 46 inches</product-name>
             <quantity>2</quantity>
-            <price>100</price>
+            <price>$450</price>
+        </product>
+    </delivered-product>
+    <delivered-product>
+        <invoice id="IV124" date="2008/05/15" by="&truck;"></invoice>
+        <customer>
+            <name>Tan Phat</name>
+            <address>123 Le Thanh Ton Q1</address>
+        </customer>
+        <product id="P00002">
+            <product-name>TV Sony Wega 55 inches</product-name>
+            <quantity>2</quantity>
+            <price>$1000</price>
+        </product>
+    </delivered-product>
+    <delivered-product>
+        <invoice id="IV125" date="2008/04/01" by="&bike;"></invoice>
+        <customer>
+            <name>Tan Phat</name>
+            <address>No Trang Long Q Binh Thanh</address>
+        </customer>
+        <product id="P00003">
+            <product-name>Monitor 24 inches</product-name>
+            <quantity>1</quantity>
+            <price>$150</price>
         </product>
     </delivered-product>
 </delivered-products>
