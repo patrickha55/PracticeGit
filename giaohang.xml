@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE delivered-products SYSTEM "C:\Users\diepv\GitFolder\XML\giaohang.dtd">
+<delivered-products>
+    <delivered-product>
+        <invoice id="1" date="2020" by="&truck;"></invoice>
+        <customer>
+            <name>Phat</name>
+            <address>Ho Chi Minh</address>
+        </customer>
+        <product id="1">
+            <product-name>ABC</product-name>
+            <quantity>2</quantity>
+            <price>100</price>
+        </product>
+    </delivered-product>
+</delivered-products>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT delivered-products (delivered-product)*>
+<!NOTATION By-Motorbike SYSTEM "By Motorbike">
+<!ENTITY bike SYSTEM "By Motorbike" NDATA By-Motorbike>
+<!NOTATION By-Truck SYSTEM "By Truck">
+<!ENTITY truck SYSTEM "By Truck" NDATA By-Truck>
+<!ELEMENT delivered-product (invoice, customer, product)>
+<!ELEMENT invoice EMPTY>
+    <!ATTLIST invoice id CDATA #REQUIRED
+                      date CDATA #REQUIRED
+                      by ENTITY #REQUIRED>
+                      
+<!ELEMENT customer (name, address)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT address (#PCDATA)>
+<!ELEMENT product (product-name,quantity,price)>
+    <!ATTLIST product id CDATA #REQUIRED>
+    <!ELEMENT product-name (#PCDATA)>
+    <!ELEMENT quantity (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
